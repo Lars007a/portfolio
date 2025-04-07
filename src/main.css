@@ -6,6 +6,10 @@
   --cardsColor: #374151;
   --mutedText: #94a3b8;
   --accentColor: #9a3412;
+
+  --accentColorHover: #7a2407;
+  /*   --textColorHover: #bcbec0;
+ */
 }
 
 body {
@@ -28,6 +32,17 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  color: var(--textColor);
+}
+
+a,
+button,
+input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+a {
   color: var(--textColor);
 }
 
