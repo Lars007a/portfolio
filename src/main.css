@@ -10,11 +10,17 @@
   --accentColorHover: #7a2407;
   /*   --textColorHover: #bcbec0;
  */
+
+  --paragraphSpacing: 20px;
 }
 
 body {
   scroll-behavior: smooth;
   background-color: var(--primColor);
+}
+
+html,
+body {
 }
 
 * {

@@ -5,6 +5,8 @@ import SiteComp from "./siteComp.jsx";
 import Nav from "./comps/navigation/navigation.jsx";
 import RightSec from "./comps/rightSec/rightSec.jsx";
 import GeneralLayout from "./comps/generalLayout/generalLayout.jsx";
+import Intro from "./comps/introduction/intro.jsx";
+import Pic from "./assets/avatar.jpg";
 
 //Importere app comp, og viser det.
 //Filen her, bliver kørt i index.html.
@@ -13,11 +15,7 @@ createRoot(document.getElementById("root")).render(
     <GeneralLayout>
       <Nav />
       <RightSec>
-        <p>Hej</p>
-        <p>Hej</p>
-        <p>Hej</p>
-        <p>Hej</p>
-        <p>Hej</p>
+        <Intro id={"intro"} pic={Pic} />
       </RightSec>
     </GeneralLayout>
   </StrictMode>
