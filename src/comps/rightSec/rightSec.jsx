@@ -1,10 +1,11 @@
 import styles from "./rightSec.module.css";
+import Container from "../genericContainer/container";
 
 export default function rightSec({ children }) {
   return (
     <div className={styles.sec}>
-      <div className={styles.contentWrapper} style={{ overflowY: "auto" }}>
-        {children}
+      <div className={styles.contentWrapper}>
+        <Container sidePadding={true}>{children}</Container>
       </div>
     </div>
   );

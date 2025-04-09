@@ -7,21 +7,25 @@ export default function intro({ id, pic }) {
       <div className={styles.intro} id={id}>
         <h1>Om mig</h1>
         <div className={styles.dual}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            nisi alias aliquam sunt, eum dolore nihil adipisci modi assumenda
-            nam. Illum dolorem sapiente ipsam quisquam? Nihil sit sed maxime
-            quibusdam in dolor possimus quos molestiae magni dolorem at, omnis
-            commodi non corrupti assumenda aut fugiat consectetur accusamus
-            nobis, cupiditate aspernatur voluptas earum maiores? Obcaecati
-            ratione voluptate excepturi recusandae a cum, veritatis officiis,
-            illum, qui itaque tempore blanditiis iste nesciunt cumque corrupti
-            ab laboriosam consequatur? Rerum nihil aperiam veritatis nostrum
-            nulla tenetur voluptatum reiciendis quis, quia molestias odio
-            quaerat, sit labore voluptas omnis rem. Voluptates cum quo saepe vel
-            corporis magni!
-          </p>
-          <RoundImg alt={"Lars"} pic={pic} />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto nisi alias aliquam sunt, eum dolore nihil adipisci modi
+              assumenda nam. Illum dolorem sapiente ipsam quisquam? Nihil sit
+              sed maxime quibusdam in dolor possimus quos molestiae magni
+              dolorem at, omnis commodi non corrupti assumenda aut fugiat
+              consectetur accusamus nobis, cupiditate aspernatur voluptas earum
+              maiores? Obcaecati ratione voluptate excepturi recusandae a cum,
+              veritatis officiis, illum, qui itaque tempore blanditiis iste
+              nesciunt cumque corrupti ab laboriosam consequatur? Rerum nihil
+              aperiam veritatis nostrum nulla tenetur voluptatum reiciendis
+              quis, quia molestias odio quaerat, sit labore voluptas omnis rem.
+              Voluptates cum quo saepe vel corporis magni!
+            </p>
+          </div>
+          <div className={styles.imgBox}>
+            <RoundImg alt={"Lars"} pic={pic} />
+          </div>
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi

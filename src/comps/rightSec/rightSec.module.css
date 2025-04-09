@@ -2,8 +2,6 @@
   flex: 2;
   display: flex;
   flex-direction: column;
-  margin-right: 4%;
-
   min-height: 0;
 
   /* vigtigt at min-height er på 0 til hele sektionen, og en wrapper til
@@ -12,6 +10,14 @@
   så kommer scroll her, men ikke på naven, siden overflow ikke er tilladt der.
   */
   .contentWrapper {
+    height: 100%;
+    width: 100%;
     overflow-y: auto;
+  }
+
+  .paddingCon {
+    width: 100%;
+    height: 100%;
+    padding-right: 6%;
   }
 }

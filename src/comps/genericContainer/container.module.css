@@ -5,4 +5,8 @@
   &.sidePadding {
     width: 90%;
   }
+
+  &.nav {
+    width: 75%;
+  }
 }
