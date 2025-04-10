@@ -3,13 +3,9 @@
   width: 90%;
   margin: 0 auto;
 
-  h1 {
-    margin-bottom: var(--paragraphSpacing);
-  }
-
   p {
     width: 100%;
-
+    text-align: justify;
     letter-spacing: 1px;
     word-spacing: 2px;
   }
