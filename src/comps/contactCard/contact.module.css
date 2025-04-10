@@ -23,3 +23,14 @@
     color: var(--accentColor);
   }
 }
+
+@media (max-width: 1000px) {
+  .box .article {
+    width: 100%;
+  }
+
+  .box {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

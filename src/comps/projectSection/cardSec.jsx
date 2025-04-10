@@ -1,4 +1,4 @@
-import styles from "./projectSec.module.css";
+import styles from "./cardSec.module.css";
 
 export default function projSec({ children, title, id }) {
   return (

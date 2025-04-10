@@ -41,13 +41,13 @@ export default function navigation() {
           <footer className="footer">
             <div className={styles.icons}>
               <a href="#">
-                <IoDocumentTextOutline size={30} />
+                <IoDocumentTextOutline size={25} />
               </a>
               <a href="mailto:eksempel@eksempel.dk">
-                <MdOutlineMail size={30} />
+                <MdOutlineMail size={25} />
               </a>
               <a href="https://github.com/lars007a">
-                <FaGithub size={30} />
+                <FaGithub size={25} />
               </a>
             </div>
             <a href="mailto:eksempel@eksempel.dk" className={styles.email}>

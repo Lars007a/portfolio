@@ -5,7 +5,7 @@ export default function intro({ id, pic }) {
   return (
     <>
       <div className={styles.intro} id={id}>
-        <h1>Om mig</h1>
+        <h1 className="">Om mig</h1>
         <div className={styles.dual}>
           <div>
             <p>
@@ -14,6 +14,10 @@ export default function intro({ id, pic }) {
               assumenda nam. Illum dolorem sapiente ipsam quisquam? Nihil sit
               sed maxime quibusdam in dolor possimus quos molestiae magni
               dolorem at, omnis commodi non corrupti assumenda aut fugiat
+              consectetur accusamus nobis, cupiditate aspernatur voluptas earum
+              maiores? omnis commodi non corrupti assumenda aut fugiat
+              consectetur accusamus nobis, cupiditate aspernatur voluptas earum
+              maiores? omnis commodi non corrupti assumenda aut fugiat
               consectetur accusamus nobis, cupiditate aspernatur voluptas earum
               maiores?
             </p>

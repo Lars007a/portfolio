@@ -7,12 +7,12 @@ import RightSec from "./comps/rightSec/rightSec.jsx";
 import GeneralLayout from "./comps/generalLayout/generalLayout.jsx";
 import Intro from "./comps/introduction/intro.jsx";
 import Pic from "./assets/avatar.jpg";
-import ProjSec from "./comps/projectSection/projectSec.jsx";
-import ProjCard from "./comps/projectCard/projectCard.jsx";
 import ContactSec from "./comps/contactSec/contactSec.jsx";
 import ContactCard from "./comps/contactCard/contact.jsx";
 import { BiPhone } from "react-icons/bi";
 import { MdOutlineEmail } from "react-icons/md";
+import Card from "./comps/projectCard/card.jsx";
+import CardSec from "./comps/projectSection/cardSec.jsx";
 
 //Importere app comp, og viser det.
 //Filen her, bliver kørt i index.html.
@@ -22,8 +22,8 @@ createRoot(document.getElementById("root")).render(
       <Nav />
       <RightSec>
         <Intro id={"intro"} pic={Pic} />
-        <ProjSec title={"Projekt eksempler"} id={"projex"}>
-          <ProjCard
+        <CardSec title={"Projekt eksempler"} id={"projex"}>
+          <Card
             demoLink={"#"}
             githubLink={"#"}
             img={Pic}
@@ -34,7 +34,7 @@ createRoot(document.getElementById("root")).render(
             title={"Projektnavn"}
             badges={["Javascript", "React", "HTML/CSS"]}
           />
-          <ProjCard
+          <Card
             demoLink={"#"}
             githubLink={"#"}
             img={Pic}
@@ -45,7 +45,7 @@ createRoot(document.getElementById("root")).render(
             title={"Projektnavn"}
             badges={["Javascript", "React", "HTML/CSS"]}
           />
-          <ProjCard
+          <Card
             demoLink={"#"}
             githubLink={"#"}
             img={Pic}
@@ -56,7 +56,7 @@ createRoot(document.getElementById("root")).render(
             title={"Projektnavn"}
             badges={["Javascript", "React", "HTML/CSS"]}
           />
-          <ProjCard
+          <Card
             demoLink={"#"}
             githubLink={"#"}
             img={Pic}
@@ -67,7 +67,8 @@ createRoot(document.getElementById("root")).render(
             title={"Projektnavn"}
             badges={["Javascript", "React", "HTML/CSS"]}
           />
-        </ProjSec>
+        </CardSec>
+
         <ContactSec id={"contact"} title={"Kontakt mig"}>
           <ContactCard
             title={"Telefon"}

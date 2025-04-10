@@ -1,0 +1,51 @@
+.content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+
+  .imgBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 100px;
+    width: auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+  }
+}
+
+.badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  padding: 6px 10px;
+  background-color: var(--mutedText);
+  border-radius: 20px;
+  color: var(--primColor);
+}
+
+.btnBox {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.projCard {
+  padding: 15px 0px;
+  background-color: var(--cardsColor);
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}

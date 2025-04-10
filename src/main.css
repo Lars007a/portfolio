@@ -11,12 +11,15 @@
   /*   --textColorHover: #bcbec0;
  */
 
-  --paragraphSpacing: 20px;
+  --paragraphSpacing: 12px;
+  --letterSpacing: 0.25px;
 }
 
 body {
   scroll-behavior: smooth;
   background-color: var(--primColor);
+  letter-spacing: var(--letterSpacing);
+  line-height: 1.6;
 }
 
 html,
@@ -45,7 +48,7 @@ input {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h1,
@@ -58,29 +61,30 @@ h6 {
 }
 
 h1 {
-  font-size: 44px;
+  font-size: 35px;
 }
 
 h2 {
-  font-size: 40px;
-}
-
-h3 {
-  font-size: 36px;
-}
-
-h4 {
-  font-size: 32px;
-}
-
-h5 {
   font-size: 30px;
 }
 
-h6 {
+h3 {
+  font-size: 28px;
+}
+
+h4 {
   font-size: 25px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 20px;
 }
 
 .muted {
   color: var(--mutedText) !important;
+  letter-spacing: 1px;
 }
