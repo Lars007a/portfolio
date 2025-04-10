@@ -2,26 +2,23 @@
   background-color: var(--primColor);
   flex: 1;
 
-  position: sticky;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-
-  overflow: hidden;
-
   nav {
     height: 100vh;
-    width: 100%;
-    margin: 0 auto;
-
+    width: 80%;
+    margin: 0 0;
     display: flex;
     flex-direction: column;
+
+    position: sticky;
+    top: 0;
+    bottom: 0;
 
     justify-content: space-around;
   }
 
   nav .intro {
     padding-top: 15px;
+    letter-spacing: 3px;
   }
 
   nav ul {
@@ -38,6 +35,7 @@
     text-decoration: none;
     color: var(--textColor);
     letter-spacing: 3px;
+    font-weight: 300;
   }
 
   nav ul li:not(:last-of-type) a {

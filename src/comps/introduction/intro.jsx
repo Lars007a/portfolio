@@ -15,12 +15,7 @@ export default function intro({ id, pic }) {
               sed maxime quibusdam in dolor possimus quos molestiae magni
               dolorem at, omnis commodi non corrupti assumenda aut fugiat
               consectetur accusamus nobis, cupiditate aspernatur voluptas earum
-              maiores? Obcaecati ratione voluptate excepturi recusandae a cum,
-              veritatis officiis, illum, qui itaque tempore blanditiis iste
-              nesciunt cumque corrupti ab laboriosam consequatur? Rerum nihil
-              aperiam veritatis nostrum nulla tenetur voluptatum reiciendis
-              quis, quia molestias odio quaerat, sit labore voluptas omnis rem.
-              Voluptates cum quo saepe vel corporis magni!
+              maiores?
             </p>
           </div>
           <div className={styles.imgBox}>
@@ -35,11 +30,7 @@ export default function intro({ id, pic }) {
           architecto nesciunt. Expedita, beatae? Excepturi at debitis sed quidem
           eaque repellat odio, porro fugit ab, totam saepe pariatur eligendi
           quis eius exercitationem ipsa? Quae repellendus praesentium est
-          necessitatibus aliquid voluptate iure consequatur perferendis
-          voluptatem odio cupiditate fuga non alias maxime a unde provident
-          dignissimos, rem autem impedit incidunt. Dolorem, quibusdam. Minima
-          nesciunt eligendi tempora ducimus, incidunt voluptatem doloremque hic
-          dignissimos eos?
+          necessitatibus.
         </p>
       </div>
     </>

@@ -6,7 +6,7 @@ import RightSec from "../rightSec/rightSec.jsx";
 export default function generalLayout({ children }) {
   return (
     <>
-      <GenericContainer sidePadding={false}>
+      <GenericContainer sidePadding={true}>
         <div className={styles.content}>{children}</div>
       </GenericContainer>
     </>
