@@ -60,7 +60,12 @@
 }
 
 @media (max-width: 1000px) {
+  .projCard {
+    padding: 20px 0px;
+  }
+
   .content {
+    width: 85%;
     flex-direction: column;
   }
 }

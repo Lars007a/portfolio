@@ -18,16 +18,16 @@ export default function navigation() {
           </header>
           <ul>
             <li>
-              <a href="#">Om mig</a>
+              <a href="#intro">Om mig</a>
             </li>
             <li>
-              <a href="#">Eksempel projekter</a>
+              <a href="#projects">Eksempel projekter</a>
             </li>
             <li>
-              <a href="#">Færdigheder</a>
+              <a href="#skills">Færdigheder</a>
             </li>
             <li>
-              <a href="#">Kontakt mig</a>
+              <a href="#contact">Kontakt mig</a>
             </li>
             <li>
               <IconBtn
@@ -43,15 +43,15 @@ export default function navigation() {
               <a href="#">
                 <IoDocumentTextOutline size={25} />
               </a>
-              <a href="mailto:eksempel@eksempel.dk">
+              <a href="mailto:larsjulvistisen@gmail.com">
                 <MdOutlineMail size={25} />
               </a>
               <a href="https://github.com/lars007a">
                 <FaGithub size={25} />
               </a>
             </div>
-            <a href="mailto:eksempel@eksempel.dk" className={styles.email}>
-              eksempel@eksempel.dk
+            <a href="mailto:larsjulvistisen@gmail.com" className={styles.email}>
+              larsjulvistisen@gmail.com
             </a>
             <p className="muted">© Copyright 2025</p>
           </footer>

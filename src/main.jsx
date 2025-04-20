@@ -14,6 +14,13 @@ import { MdOutlineEmail } from "react-icons/md";
 import Card from "./comps/projectCard/card.jsx";
 import CardSec from "./comps/projectSection/cardSec.jsx";
 
+import SkillCard from "./comps/skillCard/skillCard.jsx";
+import SkillSec from "./comps/skillSec/skillSec.jsx";
+import { FaReact } from "react-icons/fa";
+import { DiJavascript } from "react-icons/di";
+import { DiHtml5 } from "react-icons/di";
+import { DiCss3 } from "react-icons/di";
+
 //Importere app comp, og viser det.
 //Filen her, bliver kørt i index.html.
 createRoot(document.getElementById("root")).render(
@@ -22,7 +29,7 @@ createRoot(document.getElementById("root")).render(
       <Nav />
       <RightSec>
         <Intro id={"intro"} pic={Pic} />
-        <CardSec title={"Projekt eksempler"} id={"projex"}>
+        <CardSec title={"Projekt eksempler"} id={"projects"}>
           <Card
             demoLink={"#"}
             githubLink={"#"}
@@ -68,6 +75,44 @@ createRoot(document.getElementById("root")).render(
             badges={["Javascript", "React", "HTML/CSS"]}
           />
         </CardSec>
+
+        <SkillSec id={"skills"} title={"Færdigheder"}>
+          <SkillCard
+            desc={
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"
+            }
+            img={<FaReact size={30} />}
+            imgAlt={"Pic"}
+            title={"React"}
+          />
+
+          <SkillCard
+            desc={
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"
+            }
+            img={<DiJavascript />}
+            imgAlt={"Pic"}
+            title={"React"}
+          />
+
+          <SkillCard
+            desc={
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"
+            }
+            img={<DiCss3 size={30} />}
+            imgAlt={"Pic"}
+            title={"React"}
+          />
+
+          <SkillCard
+            desc={
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"
+            }
+            img={<DiHtml5 size={30} />}
+            imgAlt={"Pic"}
+            title={"React"}
+          />
+        </SkillSec>
 
         <ContactSec id={"contact"} title={"Kontakt mig"}>
           <ContactCard

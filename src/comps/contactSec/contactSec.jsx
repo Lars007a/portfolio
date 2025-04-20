@@ -8,8 +8,8 @@ export default function contactSec({ children, title, id }) {
         <div className={styles.intro}>
           <h1>{title}</h1>
           <p className="muted">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-            quibusdam.
+            Tøv ikke med at kontakte mig for spørgsmål, samarbejde eller andet.
+            Jeg ser frem til at høre fra dig/jer!
           </p>
         </div>
         <div className={styles.content}>{children}</div>

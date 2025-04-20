@@ -6,9 +6,8 @@ export default function projSec({ children, title, id }) {
       <div className={styles.introduc} id={id}>
         <h1>{title}</h1>
         <p className="muted" style={{ textAlign: "center" }}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque et
-          expedita quae architecto minus harum nostrum numquam adipisci
-          doloremque tempora.
+          Udforsk mine projekter, der demonstrerer min tekniske kunnen og
+          kreative løsninger indenfor webudvikling og design.
         </p>
       </div>
       <section className={styles.projSec}>{children}</section>
