@@ -5,11 +5,31 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import cv from "../../assets/cv.pdf";
+import { useState } from "react";
+import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 
 export default function navigation() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    if (isOpen == true) {
+      setIsOpen(false);
+    } else {
+      setIsOpen(true);
+    }
+  };
+
   return (
     <>
-      <section className={styles.navsec}>
+      <section
+        className={`${styles.navsec} ${isOpen ? styles.openHamburger : ""}`}
+      >
+        {isOpen == false ? (
+          <RxHamburgerMenu onClick={toggle} className={styles.ham} />
+        ) : (
+          <RxCross1 onClick={toggle} className={styles.ham} />
+        )}
+
         <nav>
           <header className={styles.intro}>
             <h1>Lars Jul Vistisen</h1>
@@ -17,7 +37,7 @@ export default function navigation() {
               Webudvikler studerende på medieskolerne i Viborg.
             </p>
           </header>
-          <ul>
+          <ul onClick={toggle}>
             <li>
               <a href="#intro">Om mig</a>
             </li>

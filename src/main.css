@@ -16,7 +16,6 @@
 }
 
 body {
-  scroll-behavior: smooth;
   background-color: var(--primColor);
   letter-spacing: var(--letterSpacing);
   line-height: 1.6;
@@ -24,6 +23,7 @@ body {
 
 html,
 body {
+  scroll-behavior: smooth;
 }
 
 * {

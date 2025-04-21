@@ -32,3 +32,19 @@
     align-items: center;
   }
 }
+
+@media (max-width: 1000px) {
+  .intro {
+    .dual {
+      flex-direction: column-reverse;
+    }
+
+    img {
+      display: none;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  }
+}

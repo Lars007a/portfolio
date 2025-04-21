@@ -34,4 +34,9 @@
     padding: 20px 0px;
     flex-direction: column;
   }
+
+  .content svg {
+    height: 60px;
+    width: auto;
+  }
 }
