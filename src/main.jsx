@@ -44,7 +44,7 @@ createRoot(document.getElementById("root")).render(
             img={projPic1}
             imgAlt={"Demo billed"}
             desc={
-              "Legekrogen, faktisk min semesteropgave, er en simpel hjemmeside til en fiktiv legetøjsbutik. Hjemmesiden er lavet som en semesteropgave under uddannelsen."
+              "Legekrogen, min semesteropgave, er en simpel hjemmeside til en fiktiv legetøjsbutik. Hjemmesiden er lavet som en af mine semesteropgaver under uddannelsen."
             }
             title={"Legekrogen"}
             badges={["Javascript", "React", "HTML/CSS"]}
@@ -55,7 +55,7 @@ createRoot(document.getElementById("root")).render(
             img={projPic3}
             imgAlt={"Demo billed"}
             desc={
-              "En hjemmeside der er lavet til et skoleprojekt, hvor vi skulle skrive om nogle ting der ville ændre sig i fremtiden i forhold til teknologi og internettet."
+              "En hjemmeside der er lavet til et skoleprojekt, hvor vi skulle skrive om nogle ting der ville ændre sig i fremtiden i forhold til udviklingen i teknologi og internettet."
             }
             title={"Side for fremtidsprojekt"}
             badges={["Javascript", "React", "HTML/CSS"]}
@@ -76,7 +76,7 @@ createRoot(document.getElementById("root")).render(
         <SkillSec id={"skills"} title={"Færdigheder"}>
           <SkillCard
             desc={
-              "Jeg arbejder med React til at udvikle komponentbaserede webapplikationer. Jeg har erfaring med state management, props, hooks og brugergrænseflader, der er både funktionelle og nemme at vedligeholde."
+              "Webudvikler-uddannelsen specialisere sig i react, hvilket jeg blandt andet bruger til at udvikle komponentbaserede webapplikationer. Jeg har erfaring med for eksempel state management, props, hooks, samt brugergrænseflader, der både er funktionelle og nemme at vedligeholde."
             }
             img={<FaReact size={30} color="61DBFB" />}
             imgAlt={"Pic"}
@@ -85,7 +85,7 @@ createRoot(document.getElementById("root")).render(
 
           <SkillCard
             desc={
-              "JavaScript er mit primære værktøj til at skabe interaktive og dynamiske elementer på websider. Jeg har erfaring med alt fra DOM-manipulation til at bygge mindre applikationer med god kodepraksis."
+              "JavaScript er mit primære værktøj til at skabe interaktive og dynamiske elementer på websider. Jeg har erfaring med alt fra DOM-manipulation til at bygge mindre applikationer med god kodepraksis, samt diverse frameworks."
             }
             img={<DiJavascript color="F0DB4F" />}
             imgAlt={"Pic"}
