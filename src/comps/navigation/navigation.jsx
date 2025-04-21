@@ -4,6 +4,7 @@ import Container from "../genericContainer/container";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import cv from "../../assets/cv.pdf";
 
 export default function navigation() {
   return (
@@ -32,7 +33,7 @@ export default function navigation() {
             <li>
               <IconBtn
                 Icon={<IoDocumentTextOutline size={20} />}
-                link={"#"}
+                link={cv}
                 text={"CV"}
               />
             </li>
@@ -40,7 +41,7 @@ export default function navigation() {
 
           <footer className="footer">
             <div className={styles.icons}>
-              <a href="#">
+              <a href={cv}>
                 <IoDocumentTextOutline size={25} />
               </a>
               <a href="mailto:larsjulvistisen@gmail.com">
